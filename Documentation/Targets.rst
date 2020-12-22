@@ -1,5 +1,7 @@
 .. include:: /Includes.rst.txt
-.. index:: Link targets
+.. index:: 
+   Link targets
+   see: Targets; Link targets
 .. _Link-Targets:
 
 Link Targets
