@@ -52,7 +52,6 @@ Some other facts about Data Structures (DS):
    :titlesonly:
 
    Elements/Index
-   SheetReferences/Index
    Parsing/Index
 
 
