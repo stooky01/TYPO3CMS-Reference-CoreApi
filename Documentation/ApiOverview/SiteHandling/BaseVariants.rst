@@ -55,6 +55,9 @@ Example
       -
         base: 'https://testing.example.com/'
         condition: 'applicationContext == "Testing/Paris"'
+      -
+        base: '%env("TYPO3_BASE")%'
+        condition: 'getenv("TYPO3_BASE")'
     languages:
       -
         title: 'Global'
