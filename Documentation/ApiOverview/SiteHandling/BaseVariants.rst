@@ -24,6 +24,9 @@ Conditions are based on Symfony expression language and allow flexible condition
 
 would define a base variant to use in Development context.
 
+The YAML parser also processes some special syntax, e.g. environment variables. See :ref:`yaml-api` for further information on YAML parsing.
+That way, variants can be built from environment variables.
+
 .. figure:: Images/SiteHandlingBaseVariants-1.png
    :class: with-shadow
    :alt: Add a base variant
