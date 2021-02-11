@@ -134,6 +134,13 @@ Then you need to configure the backend fields for your new content element in th
        ],
    ];
 
+To make the registered icon appear in page- and list-modul you need to add the type icon class to file :file:`Configuration/TCA/Overrides/tt_content.php`:
+
+.. code-block:: php   
+
+   // Add type icon class
+   $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['yourextensionkey_newcontentelement'] = 'your-icon-identifier'; 
+
 .. _ConfigureCE-Frontend:
 
 3. Configure the Frontend Template
